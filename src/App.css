@@ -1,0 +1,28 @@
+#root,
+main {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  border: 1px solid #17ae8e;
+  margin-top: 32px;
+  flex: 1;
+}
+
+.leaflet-control-container .leaflet-top .leaflet-control-zoom a { 
+  color: #17ae8e;
+  border-color: #17ae8e;
+  background-color: rgb(101, 101, 101); 
+}
+
+.leaflet-control-container .leaflet-bottom .leaflet-control-attribution { 
+  border: 1px solid #17ae8e;
+}

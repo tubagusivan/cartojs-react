@@ -1,0 +1,13 @@
+.Description {
+  width: 100%;
+  margin: auto;
+  height: 150px;
+  overflow: auto;
+}
+
+.Description-text {
+  color: #17ae8e;
+  top: 0px;
+  text-align: center;
+  font-size: 1.4rem;
+}
